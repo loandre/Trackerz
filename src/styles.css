@@ -133,7 +133,7 @@ h2 {
   padding-right: 5rem;
   color: var(--subtitle-color);
 }
-.orange-title {
+.right-title {
   color: var(--first-color);
 }
 /* =============== BOX CONTAINER =============== */
@@ -142,8 +142,8 @@ h2 {
   align-items: stretch;
   gap: 0;
 }
-/* =============== BOX BLUE =============== */
-.box__blue {
+/* =============== BOX LEFT =============== */
+.box__left {
   display: flex;
   flex: 1;
   margin: 0;
@@ -155,24 +155,24 @@ h2 {
   color: var(--container-color);
   border-radius: 1.5rem 0 0 1.5rem;
 }
-.tracking-package-blue {
+.tracking-package-left {
   display: flex;
   border-radius: 0.6rem;
   align-items: center;
   gap: 1rem;
 }
-.tracking-package-blue input,
-.tracking-package-blue button {
+.tracking-package-left input,
+.tracking-package-left button {
   height: 2.5rem;
 }
-.tracking-package-blue input {
+.tracking-package-left input {
   width: 18.75rem;
   border: 0;
   outline: 0;
   padding: 0.625rem;
   border-radius: 0.6rem;
 }
-.tracking-package-blue button {
+.tracking-package-left button {
   flex: 1;
   background: var(--first-color);
   border: 0;
@@ -183,7 +183,7 @@ h2 {
   padding: 0.625rem 1.0625rem;
   border-radius: 0.6rem;
 }
-.box__blue__subtitle {
+.box__left__subtitle {
   display: inline-block;
   vertical-align: middle;
   color: var(--subtitle-color);
@@ -191,8 +191,8 @@ h2 {
   font-size: 0.7rem;
   font-style: italic;
 }
-/* =============== BOX ORANGE =============== */
-.box__orange {
+/* =============== BOX RIGHT =============== */
+.box__right {
   display: flex;
   flex: 1;
   margin: 0;
@@ -204,25 +204,25 @@ h2 {
   color: var(--container-color);
   border-radius: 0 1.5rem 1.5rem 0;
 }
-.tracking-package-orange {
+.tracking-package-right {
   display: flex;
   align-items: center;
 }
-.tracking-package-orange input,
-.tracking-package-orange button {
+.tracking-package-right input,
+.tracking-package-right button {
   height: 2.5rem;
 }
-.tracking-package-orange input {
+.tracking-package-right input {
   width: 7.5rem;
   border: 0;
   outline: 0;
   padding: 0.625rem;
   border-radius: 0.6rem;
 }
-.tracking-package-orange .input-container .input-group:nth-child(3) input {
+.tracking-package-right .input-container .input-group:nth-child(3) input {
   width: 2.5rem;
 }
-.tracking-package-orange button {
+.tracking-package-right button {
   background: var(--text-color);
   border: 0;
   color: var(--container-color);
